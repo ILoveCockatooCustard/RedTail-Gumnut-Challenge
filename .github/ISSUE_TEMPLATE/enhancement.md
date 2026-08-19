@@ -1,7 +1,9 @@
+---
 name: Addition Request
 description: Request an addition
 title: "[Addition]: "
 labels: ["enhancement"]
+---
 body:
   - type: markdown
     attributes:
