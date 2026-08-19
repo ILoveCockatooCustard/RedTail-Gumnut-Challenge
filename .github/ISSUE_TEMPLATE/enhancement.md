@@ -1,6 +1,7 @@
 ---
 name: Addition Request
 description: Request an addition
+about: Request an addition to the game that we should add
 title: "[Addition]: "
 labels: ["enhancement"]
 ---
