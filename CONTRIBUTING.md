@@ -2,7 +2,8 @@
 
 Thank you for your interest in RedTail Gumnut Challenge.
 
-At this time, this project is **not accepting external code contributions, pull requests, forks for redistribution, or modified versions of the game**.
+At this time, this project is **not accepting external code contributions, pull requests, forks for redistribution, or modified versions of the game**.<br>
+For security reasons, this game is also **NOT** Open Source, so please don't request for the game's code.
 
 You are welcome to:
 
