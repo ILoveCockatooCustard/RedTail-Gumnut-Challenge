@@ -18,6 +18,4 @@ These are the version that are supported.
 
 If you see anything that is a vulnerability please report it immediatly, we want to keep our users safe and happy at the same time. 
 
-## Reporting a Vulnerability
-
 Please go to issues and place Issue and explain the issue and what can cause or caused it, you can also give more infornmation if needed, we will fix the vulnerability in less than 3 days
