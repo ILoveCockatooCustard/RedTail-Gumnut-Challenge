@@ -1,5 +1,5 @@
 # Security Policy
-**LAST UPDATED: 20/8/2026**<br>
+**LAST UPDATED: 21/8/2026**<br>
 Please tell us anything about the game that can cause a security issue immediately as we want to keep everyone safe.
 
 ## Supported Versions
@@ -8,7 +8,9 @@ The latest version is always supported. Please use the latest version when filin
 _A table with other supported versions is listed below_
 | Version | Supported          
 | ------- | -----------------------------------                
-| 1.0.5   |  ✅ This version is supported, as it's the latest version on writing this.                     |
+| 1.0.5   |  ✅ This version is supported, as it's the latest version on writing this.|
+| 1.0.4   |  🟡 This version can be used, but isn't supported.|
+| 1.0.3   |  ❌ Versions 1.0.3 and below shouldn't be used. Please update.|
 
 ## Reporting a Vulnerability
 
