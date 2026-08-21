@@ -9,7 +9,7 @@ _A table with other supported versions is listed below_
 | Version | Supported          
 | ------- | -----------------------------------
 | 1.1.0   |  ✅ Latest Version
-| 1.0.4   |  ❌ Versions 1.0.5 and below shouldn't be used. Please update.|
+| 1.0.5 and below   |  ❌ Versions 1.0.5 and below shouldn't be used. Please update.|
 
 ## Reporting a Vulnerability
 
