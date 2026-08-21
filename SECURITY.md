@@ -7,10 +7,9 @@ Please tell us anything about the game that can cause a security issue immediate
 The latest version is always supported. Please use the latest version when filing a report.<br>
 _A table with other supported versions is listed below_
 | Version | Supported          
-| ------- | -----------------------------------                
-| 1.0.5   |  ✅ This version is supported, as it's the latest version on writing this.|
-| 1.0.4   |  🟡 This version can be used, but isn't supported.|
-| 1.0.3   |  ❌ Versions 1.0.3 and below shouldn't be used. Please update.|
+| ------- | -----------------------------------
+| 1.1.0   |  ✅ Latest Version
+| 1.0.4   |  ❌ Versions 1.0.5 and below shouldn't be used. Please update.|
 
 ## Reporting a Vulnerability
 
