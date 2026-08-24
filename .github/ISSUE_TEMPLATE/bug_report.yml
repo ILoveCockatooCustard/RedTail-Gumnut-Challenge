@@ -40,7 +40,7 @@ body:
       options:
         - label: I am sure this has not been added yet.
           required: true
-   - type: dropdown
+  - type: dropdown
     id: version
     attributes:
       label: Version
@@ -53,33 +53,33 @@ body:
     attributes:
       value: |
         You can find this at the bottom left corner of the home screen.<br>If your version is 1.0.4 and below, it is highly recommended to update.
-- type: dropdown
-      id: os
-      attributes:
-        label: Operating System
-        description: Type winver in search to see your version (windows only). We currently do not support Linux or macOS.
-        options:
-          - 25H2 (Windows 11)
-          - 24H2 (Windows 11)
-          - 23H2 (Windows 11)
-          - 22H2 (Windows 11 / Windows 10)
-          - 21H2 (Windows 11 / Windows 10)
-          - 21H1 (Windows 10)
-          - 20H2 (Windows 10)
-          - 2004 / 20H1 (Windows 10)
-          - 1909 / 19H2 (Windows 10)
-          - 1903 / 19H1 (Windows 10)
-          - 1809 (Windows 10)
-          - 1803 (Windows 10)
-          - 1709 (Windows 10)
-          - 1703 (Windows 10)
-          - 1607 (Windows 10)
-          - 1511 (Windows 10)
-          - 1507 (Initial Windows 10)
-    - type: markdown
-      attributes:
-        value: |
-          If your operating system is not listed above, it may be time to update your system.<br> We do not support Windows 8.1 or older (e.g., Windows 8, 7, Vista, XP).<br> If your hardware cannot run Windows 10 or newer, it will not be able to run RedTail Gumnut Challenge.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Type winver in search to see your version (windows only). We currently do not support Linux or macOS.
+      options:
+        - 25H2 (Windows 11)
+        - 24H2 (Windows 11)
+        - 23H2 (Windows 11)
+        - 22H2 (Windows 11 / Windows 10)
+        - 21H2 (Windows 11 / Windows 10)
+        - 21H1 (Windows 10)
+        - 20H2 (Windows 10)
+        - 2004 / 20H1 (Windows 10)
+        - 1909 / 19H2 (Windows 10)
+        - 1903 / 19H1 (Windows 10)
+        - 1809 (Windows 10)
+        - 1803 (Windows 10)
+        - 1709 (Windows 10)
+        - 1703 (Windows 10)
+        - 1607 (Windows 10)
+        - 1511 (Windows 10)
+        - 1507 (Initial Windows 10)
+  - type: markdown
+    attributes:
+      value: |
+        If your operating system is not listed above, it may be time to update your system.<br> We do not support Windows 8.1 or older (e.g., Windows 8, 7, Vista, XP).<br> If your hardware cannot run Windows 10 or newer, it will not be able to run RedTail Gumnut Challenge.
   - type: textarea
     id: extra
     attributes:
@@ -87,10 +87,8 @@ body:
       description: Do you have anything else to add?
     validations:
       required: false
-  - type: upload
-    id: screenshots
+  - type: markdown
     attributes:
-      label: Upload Screenshots
-      description: If possible, please add screenshots to help explain your problem
-    validations:
-      required: false
+      value: |
+        ### Upload Screenshots
+        Please drag and drop or attach any screenshots/media directly into the issue text box below to help explain the problem.
