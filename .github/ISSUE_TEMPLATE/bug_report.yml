@@ -87,8 +87,10 @@ body:
       description: Do you have anything else to add?
     validations:
       required: false
-  - type: markdown
+  - type: upload
+    id: screenshots
     attributes:
-      value: |
-        ### Upload Screenshots
-        Please drag and drop or attach any screenshots/media directly into the issue text box below to help explain the problem.
+      label: Upload Screenshots
+      description: If possible, please add screenshots to help explain your problem
+    validations:
+      required: false
