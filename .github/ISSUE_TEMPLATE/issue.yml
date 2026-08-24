@@ -1,30 +1,96 @@
----
-name: Bug/issue Report
-about: Create a report to help us fix/improve the game
-title: "[Bug Reporting]"
-labels: ''
-assignees: ''
+name: Bug Report
+description: Report a bug to help us improve our game!
+title: "[Bug]: "
+labels: ["bug"]
 
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS:
- - Version [e.g. 22]
-
-**Additional context**
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.<br>We appreciate your effort.
+  - type: textarea
+    id: description
+    attributes:
+      label: Please describe the bug.
+      description: A clear description of the bug.
+      placeholder: Something is wrong here...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce...
+      description: Please explain the steps to reproduce the behaviour.
+      placeholder: 1. Click here, 2. Scroll Here, 3. Type Here, 4. Examine Bug.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: A clear description of the bug.
+      placeholder: Something is wrong here...
+    validations:
+      required: true
+  - type: checkboxes
+    id: newestver
+    attributes:
+      label: I have checked this hasn't been added yet.
+      description: Are you sure I've already added this feature?
+      options:
+        - label: I am sure this has not been added yet.
+          required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of RedTail Gumnut Challenge are you using?
+      options:
+        - 1.1.0
+        - 1.0.5
+        - 1.0.4 and below
+  - type: markdown
+    attributes:
+      value: |
+        You can find this at the bottom left corner of the home screen.<br>If your version is 1.0.4 and below, it is highly recommended to update.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Type winver in search to see your version (windows only). We currently do not support Linux or macOS.
+      options:
+        - 25H2 (Windows 11)
+        - 24H2 (Windows 11)
+        - 23H2 (Windows 11)
+        - 22H2 (Windows 11 / Windows 10)
+        - 21H2 (Windows 11 / Windows 10)
+        - 21H1 (Windows 10)
+        - 20H2 (Windows 10)
+        - 2004 / 20H1 (Windows 10)
+        - 1909 / 19H2 (Windows 10)
+        - 1903 / 19H1 (Windows 10)
+        - 1809 (Windows 10)
+        - 1803 (Windows 10)
+        - 1709 (Windows 10)
+        - 1703 (Windows 10)
+        - 1607 (Windows 10)
+        - 1511 (Windows 10)
+        - 1507 (Initial Windows 10)
+  - type: markdown
+    attributes:
+      value: |
+        If your operating system is not listed above, it may be time to update your system.<br> We do not support Windows 8.1 or older (e.g., Windows 8, 7, Vista, XP).<br> If your hardware cannot run Windows 10 or newer, it will not be able to run RedTail Gumnut Challenge.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Stuff
+      description: Do you have anything else to add?
+    validations:
+      required: false
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload Screenshots
+      description: If possible, please add screenshots to help explain your problem
+    validations:
+      required: false
