@@ -43,7 +43,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        You can find this at the bottom left corner of the home screen.<br>If your version is 1.0.4 and below, it is highly recommended to update.
+        To check for updates, go to Settings then click Check for Updates.
   - type: dropdown
     id: os
     attributes:
