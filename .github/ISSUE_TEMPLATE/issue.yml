@@ -33,22 +33,13 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: newestver
+    id: newestversion
     attributes:
-      label: I have checked this hasn't been added yet.
-      description: Are you sure I've already added this feature?
+      label: I am on the latest version
+      description: Please make sure you're on the latest version. We are quickly fixing lots of bugs, and your one could've been one of them!
       options:
         - label: I am sure this has not been added yet.
           required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of RedTail Gumnut Challenge are you using?
-      options:
-        - 1.1.0
-        - 1.0.5
-        - 1.0.4 and below
   - type: markdown
     attributes:
       value: |
@@ -66,20 +57,10 @@ body:
         - 21H2 (Windows 11 / Windows 10)
         - 21H1 (Windows 10)
         - 20H2 (Windows 10)
-        - 2004 / 20H1 (Windows 10)
-        - 1909 / 19H2 (Windows 10)
-        - 1903 / 19H1 (Windows 10)
-        - 1809 (Windows 10)
-        - 1803 (Windows 10)
-        - 1709 (Windows 10)
-        - 1703 (Windows 10)
-        - 1607 (Windows 10)
-        - 1511 (Windows 10)
-        - 1507 (Initial Windows 10)
   - type: markdown
     attributes:
       value: |
-        If your operating system is not listed above, it may be time to update your system.<br> We do not support Windows 8.1 or older (e.g., Windows 8, 7, Vista, XP).<br> If your hardware cannot run Windows 10 or newer, it will not be able to run RedTail Gumnut Challenge.
+        If your operating system is not listed above, it may be time to update your system, because that means your system has not been updated since 2020.<br> We do not support Windows 8.1 or older (e.g., Windows 8, 7, Vista, XP).<br> If your hardware cannot run Windows 10 or newer, it will not be able to run RedTail Gumnut Challenge.
   - type: textarea
     id: extra
     attributes:
