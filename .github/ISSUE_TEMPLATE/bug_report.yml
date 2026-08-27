@@ -1,0 +1,77 @@
+name: Bug Report
+description: Report a bug to help us improve our game!
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.<br>We appreciate your effort.
+  - type: textarea
+    id: description
+    attributes:
+      label: Please describe the bug.
+      description: A clear description of the bug.
+      placeholder: Something is wrong here...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce...
+      description: Please explain the steps to reproduce the behaviour.
+      placeholder: 1. Click here, 2. Scroll Here, 3. Type Here, 4. Examine Bug.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: What did you expect to happen?
+      placeholder: I expected ... to happen.
+    validations:
+      required: true
+  - type: checkboxes
+    id: newestversion
+    attributes:
+      label: I am on the latest version
+      description: Please make sure you're on the latest version. We are quickly fixing lots of bugs, and your one could've been one of them!
+      options:
+        - label: I am sure this has not been added yet.
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        To check for updates, go to Settings then click Check for Updates.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: Type winver in search to see your version (windows only). We currently do not support Linux or macOS.
+      options:
+        - 25H2 (Windows 11)
+        - 24H2 (Windows 11)
+        - 23H2 (Windows 11)
+        - 22H2 (Windows 11 / Windows 10)
+        - 21H2 (Windows 11 / Windows 10)
+        - 21H1 (Windows 10)
+        - 20H2 (Windows 10)
+  - type: markdown
+    attributes:
+      value: |
+        If your operating system is not listed above, it may be time to update your system, because that means your system has not been updated since 2020.<br> We do not support Windows 8.1 or older (e.g., Windows 8, 7, Vista, XP).<br> If your hardware cannot run Windows 10 or newer, it will not be able to run RedTail Gumnut Challenge.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Stuff
+      description: Do you have anything else to add?
+    validations:
+      required: false
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload Screenshots
+      description: If possible, please add screenshots to help explain your problem
+    validations:
+      required: false
